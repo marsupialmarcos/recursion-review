@@ -41,7 +41,7 @@ In this sprint, you'll be reimplementing parts of the browser that involve recur
 
 The repo you will be working out of will be a different repo from Precourse. Look on Github for recursion-review instead of recursion. Work on this from scratch and do not reference code from Precourse.
 
-##### Pomander
+#### Pomander
 
 To ensure your work is of the highest quality, we've created Pomander, a tool that checks your code for syntax errors and violations against the style guide before each commit.
 
@@ -53,7 +53,7 @@ curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/instal
 
 Pomander uses a pre-commit hook to run staged files through eslint before each commit. eslint is a linter that will block your commit should you have any syntax errors, or, should you violate the Hack Reactor style guide. There are some preferred whitespace style rules that will give warnings but not block your commit. If the linter gives you any funny bugs, these bugs are not intentional, and you should feel free to skip using it during commits with the --no-verify option.
 
-##### BROKEN TESTS
+#### BROKEN TESTS
 
 To help you familiarize yourself with our favorite testing tools, Mocha and Chai, we've broken the test suite.
 
