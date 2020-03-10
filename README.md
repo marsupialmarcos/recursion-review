@@ -65,7 +65,6 @@ Chai is an assertion library that makes your tests more expressive and your erro
 
 Pay careful attention to the test files and fix them as necessary. Do not to refer back to the previous test suite, you would only be cheating yourself out of an important learning opportunity. Instead, use the Mocha and Chai documentation. You can do it!
 
-
 # BARE MINIMUM REQUIREMENTS
 * Replace stringifyJSON with your own function in src/stringifyJSON.js, and make the specs pass, fixing them as necessary.
 * Implement getElementsByClassName with your own function in src/getElementsByClassName.js, and make the specs pass, fixing them as necessary.
@@ -77,12 +76,9 @@ Our advanced content is intended to throw you in over your head, requiring you t
 * Complete the New for the Review Sprint content above.
 * Replace parseJSON with your own function in src/parseJSON.js, and make the specs pass, fixing them as necessary.
   * Use a recursive descent parser.
-
 Resources:
-
   * One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous [blog post](https://medium.com/@Mordoc/a-recursive-descent-parser-for-json-a6d68ab938ac) after wrestling with this very prompt
-
-* Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
+  * Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
 
 # Nightmare Mode
 Using Test Driven Development and recursion, build a web crawler. It should:
@@ -91,9 +87,9 @@ Using Test Driven Development and recursion, build a web crawler. It should:
 * Recursively follow links
 * Output the URL of crawled pages
 * Accept an optional configuration object as an argument that will effect the default behavior of the crawler. Consider configuring:
-* The ability to use getElementsByClassName on any of the pages you visit
-* The ability to output other kinds of information about the page such as number of script tags, distinct attributes, links to external sites, etc.
-* The option to crawl breadth first instead of depth first
-* Limit the depth or breadth of the crawl
-* Set a revisit or politeness policy
-* Refactor the crawler to use web workers
+  * The ability to use getElementsByClassName on any of the pages you visit
+  * The ability to output other kinds of information about the page such as number of script tags, distinct attributes, links to external sites, etc.
+  * The option to crawl breadth first instead of depth first
+  * Limit the depth or breadth of the crawl
+  * Set a revisit or politeness policy
+  * Refactor the crawler to use web workers
