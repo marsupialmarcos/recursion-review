@@ -74,7 +74,9 @@ Our advanced content is intended to throw you in over your head, requiring you t
 * Complete the New for the Review Sprint content above.
 * Replace parseJSON with your own function in src/parseJSON.js, and make the specs pass, fixing them as necessary.
   * Use a recursive descent parser.
+  
 Resources:
+
   * One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous [blog post](https://medium.com/@Mordoc/a-recursive-descent-parser-for-json-a6d68ab938ac) after wrestling with this very prompt
   * Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
 
