@@ -55,7 +55,8 @@ curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/instal
 
 Pomander uses a pre-commit hook to run staged files through eslint before each commit. eslint is a linter that will block your commit should you have any syntax errors, or, should you violate the Hack Reactor style guide. There are some preferred whitespace style rules that will give warnings but not block your commit. If the linter gives you any funny bugs, these bugs are not intentional, and you should feel free to skip using it during commits with the --no-verify option.
 
-BROKEN TESTS
+##### BROKEN TESTS
+
 To help you familiarize yourself with our favorite testing tools, Mocha and Chai, we've broken the test suite.
 
 Mocha is a test framework that provides the structure for test files, and is responsible for running tests and reporting their results. Mocha provides the it and describe global variables along with useful hooks like beforeEach.
@@ -67,25 +68,34 @@ Pay careful attention to the test files and fix them as necessary. Do not to ref
 
 # BARE MINIMUM REQUIREMENTS
 Replace stringifyJSON with your own function in src/stringifyJSON.js, and make the specs pass, fixing them as necessary.
+
 Implement getElementsByClassName with your own function in src/getElementsByClassName.js, and make the specs pass, fixing them as necessary.
+
 You should use document.body, element.childNodes, and element.classList
 
 # ADVANCED CONTENT
 Our advanced content is intended to throw you in over your head, requiring you to solve problems with very little support or oversight, much like you would as a mid or senior level engineer. The following problem is no exception, and you may have to do a fair amount of work to get enough context to get started on the problem itself.
 
 Complete the New for the Review Sprint content above.
+
 Replace parseJSON with your own function in src/parseJSON.js, and make the specs pass, fixing them as necessary.
+
 Use a recursive descent parser.
+
 Resources:
+
 One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous blog post after wrestling with this very prompt
+
 Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
 
 # Nightmare Mode
 Using Test Driven Development and recursion, build a web crawler. It should:
+
 Accept a URL to begin its crawl
 Recursively follow links
 Output the URL of crawled pages
 Accept an optional configuration object as an argument that will effect the default behavior of the crawler. Consider configuring:
+
 The ability to use getElementsByClassName on any of the pages you visit
 The ability to output other kinds of information about the page such as number of script tags, distinct attributes, links to external sites, etc.
 The option to crawl breadth first instead of depth first
