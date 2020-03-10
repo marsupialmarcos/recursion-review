@@ -91,10 +91,10 @@ Note: This is a lot of work, and you should expect (and look forward) to bumping
 # Nightmare Mode
 Using Test Driven Development and recursion, build a web crawler. It should:
 
-Accept a URL to begin its crawl
-Recursively follow links
-Output the URL of crawled pages
-Accept an optional configuration object as an argument that will effect the default behavior of the crawler. Consider configuring:
+* Accept a URL to begin its crawl
+* Recursively follow links
+* Output the URL of crawled pages
+* Accept an optional configuration object as an argument that will effect the default behavior of the crawler. Consider configuring:
 
 The ability to use getElementsByClassName on any of the pages you visit
 The ability to output other kinds of information about the page such as number of script tags, distinct attributes, links to external sites, etc.
