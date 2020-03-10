@@ -67,11 +67,9 @@ Pay careful attention to the test files and fix them as necessary. Do not to ref
 
 
 # BARE MINIMUM REQUIREMENTS
-Replace stringifyJSON with your own function in src/stringifyJSON.js, and make the specs pass, fixing them as necessary.
-
-Implement getElementsByClassName with your own function in src/getElementsByClassName.js, and make the specs pass, fixing them as necessary.
-
-You should use document.body, element.childNodes, and element.classList
+* Replace stringifyJSON with your own function in src/stringifyJSON.js, and make the specs pass, fixing them as necessary.
+* Implement getElementsByClassName with your own function in src/getElementsByClassName.js, and make the specs pass, fixing them as necessary.
+  * You should use document.body, element.childNodes, and element.classList
 
 # ADVANCED CONTENT
 Our advanced content is intended to throw you in over your head, requiring you to solve problems with very little support or oversight, much like you would as a mid or senior level engineer. The following problem is no exception, and you may have to do a fair amount of work to get enough context to get started on the problem itself.
