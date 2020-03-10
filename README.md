@@ -74,17 +74,15 @@ Pay careful attention to the test files and fix them as necessary. Do not to ref
 # ADVANCED CONTENT
 Our advanced content is intended to throw you in over your head, requiring you to solve problems with very little support or oversight, much like you would as a mid or senior level engineer. The following problem is no exception, and you may have to do a fair amount of work to get enough context to get started on the problem itself.
 
-Complete the New for the Review Sprint content above.
-
-Replace parseJSON with your own function in src/parseJSON.js, and make the specs pass, fixing them as necessary.
-
-Use a recursive descent parser.
+* Complete the New for the Review Sprint content above.
+* Replace parseJSON with your own function in src/parseJSON.js, and make the specs pass, fixing them as necessary.
+  * Use a recursive descent parser.
 
 Resources:
 
-One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous blog post after wrestling with this very prompt
+  * One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous blog post after wrestling with this very prompt
 
-Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
+* Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
 
 # Nightmare Mode
 Using Test Driven Development and recursion, build a web crawler. It should:
