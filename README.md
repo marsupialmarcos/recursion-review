@@ -37,9 +37,7 @@ In this sprint, you'll be reimplementing parts of the browser that involve recur
 
 (Curious fact: many browsers don't have any of these functions in them, and people do need to reimplement them. When we reimplement new browser functionality in older browsers, it's called a "polyfill".)
 
-**New for the Review Sprint**
-
-Review Sprint Repo
+# Review Sprint Repo
 
 The repo you will be working out of will be a different repo from Precourse. Look on Github for recursion-review instead of recursion. Work on this from scratch and do not reference code from Precourse.
 
