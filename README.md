@@ -80,7 +80,7 @@ Our advanced content is intended to throw you in over your head, requiring you t
 
 Resources:
 
-  * One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous blog post after wrestling with this very prompt
+  * One of Hack Reactor's amazing graduates, Ron Fenolio, wrote a fabulous [blog post](https://medium.com/@Mordoc/a-recursive-descent-parser-for-json-a6d68ab938ac) after wrestling with this very prompt
 
 * Note: This is a lot of work, and you should expect (and look forward) to bumping up against several conceptual hurdles
 
